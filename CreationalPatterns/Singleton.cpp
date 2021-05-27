@@ -1,3 +1,12 @@
+/*
+ * Why singleton design pattern ?
+ *
+ * Used to create only one object for a class.
+ *
+ * ex : logger, creating database sessions
+ */
+
+
 #include<iostream>
 using namespace std;
 
@@ -30,3 +39,9 @@ int main()
     Singleton* obj1 = Singleton::getInstance();
     Singleton* obj2 = Singleton::getInstance();
 }
+
+/*
+ * output :
+ * --------
+ * object is creating for first time
+ */
